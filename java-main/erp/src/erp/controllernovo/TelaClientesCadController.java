@@ -38,13 +38,14 @@ public class TelaClientesCadController {
         String endereco = view.getTxtCadEndereco().getText();
         String cep = view.getTxtCadCep().getText();
         String cidade = view.getTxtCadCidade().getText();
-        String uf = view.getCbUf().getSelectedItem().toString();
+        String uf = (String)view.getCbUf().getSelectedItem();
         String numero = view.getTxtCadTelefone().getText();
         String bairro = view.getTxtCadBairro().getText();
        
         Clientes cliente = new Clientes(nome, rg, cpf, endereco, cep, cidade,  uf,  numero, bairro);
  
-         try {
+       
+        try {
              //essa codigo abaixo ira verificar se todos os campos estão preenchidos.
              //*criar um metodo txtPreenchido para facilitar o uso do metodo e diminuir seu tamanho.
                 if((view.getTxtCadNome().getText().isEmpty()) || view.getTxtCadCpf().getText().isEmpty() || 
@@ -83,6 +84,10 @@ public class TelaClientesCadController {
         }
                 
     }
-        
+
+    /*public void autenticar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+      */  
     
 }
