@@ -136,6 +136,11 @@ public class TelaClientesCad extends javax.swing.JInternalFrame {
                 txtCadCpfActionPerformed(evt);
             }
         });
+        txtCadCpf.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtCadCpfKeyPressed(evt);
+            }
+        });
         jPanel3.add(txtCadCpf, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, 150, 24));
 
         jLabel2.setBackground(new java.awt.Color(45, 139, 206));
@@ -149,6 +154,11 @@ public class TelaClientesCad extends javax.swing.JInternalFrame {
                 txtCadRgActionPerformed(evt);
             }
         });
+        txtCadRg.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtCadRgKeyPressed(evt);
+            }
+        });
         jPanel3.add(txtCadRg, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 100, 167, 24));
 
         jLabel9.setBackground(new java.awt.Color(45, 139, 206));
@@ -160,6 +170,11 @@ public class TelaClientesCad extends javax.swing.JInternalFrame {
         txtCadTelefone.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtCadTelefoneActionPerformed(evt);
+            }
+        });
+        txtCadTelefone.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtCadTelefoneKeyPressed(evt);
             }
         });
         jPanel3.add(txtCadTelefone, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 30, 150, 24));
@@ -183,12 +198,23 @@ public class TelaClientesCad extends javax.swing.JInternalFrame {
                 txtCadEnderecoActionPerformed(evt);
             }
         });
+        txtCadEndereco.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtCadEnderecoKeyPressed(evt);
+            }
+        });
         jPanel2.add(txtCadEndereco, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, 167, 24));
 
         jLabel11.setFont(new java.awt.Font("Myanmar Text", 1, 16)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setText("Bairro:");
         jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, -1, 24));
+
+        txtCadCidade.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtCadCidadeKeyPressed(evt);
+            }
+        });
         jPanel2.add(txtCadCidade, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 30, 167, 24));
 
         jLabel4.setFont(new java.awt.Font("Myanmar Text", 1, 16)); // NOI18N
@@ -201,11 +227,21 @@ public class TelaClientesCad extends javax.swing.JInternalFrame {
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
+        txtCadCep.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtCadCepKeyPressed(evt);
+            }
+        });
         jPanel2.add(txtCadCep, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 30, 130, 24));
 
         txtCadBairro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtCadBairroActionPerformed(evt);
+            }
+        });
+        txtCadBairro.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtCadBairroKeyPressed(evt);
             }
         });
         jPanel2.add(txtCadBairro, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 80, 167, 24));
@@ -229,6 +265,11 @@ public class TelaClientesCad extends javax.swing.JInternalFrame {
         cbUf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cbUfActionPerformed(evt);
+            }
+        });
+        cbUf.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                cbUfKeyPressed(evt);
             }
         });
         jPanel2.add(cbUf, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, -1, 30));
@@ -262,10 +303,12 @@ public class TelaClientesCad extends javax.swing.JInternalFrame {
 
     private void txtCadRgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCadRgActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_txtCadRgActionPerformed
 
     private void txtCadEnderecoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCadEnderecoActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_txtCadEnderecoActionPerformed
 
     private void txtCadNomeKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCadNomeKeyPressed
@@ -284,6 +327,46 @@ public class TelaClientesCad extends javax.swing.JInternalFrame {
     private void txtCadBairroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCadBairroActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtCadBairroActionPerformed
+
+    private void txtCadRgKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCadRgKeyPressed
+        // TODO add your handling code here:
+         enter(evt);
+    }//GEN-LAST:event_txtCadRgKeyPressed
+
+    private void txtCadTelefoneKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCadTelefoneKeyPressed
+        // TODO add your handling code here:
+         enter(evt);
+    }//GEN-LAST:event_txtCadTelefoneKeyPressed
+
+    private void txtCadCpfKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCadCpfKeyPressed
+        // TODO add your handling code here:
+         enter(evt);
+    }//GEN-LAST:event_txtCadCpfKeyPressed
+
+    private void txtCadCidadeKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCadCidadeKeyPressed
+        // TODO add your handling code here:
+         enter(evt);
+    }//GEN-LAST:event_txtCadCidadeKeyPressed
+
+    private void txtCadCepKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCadCepKeyPressed
+        // TODO add your handling code here:
+         enter(evt);
+    }//GEN-LAST:event_txtCadCepKeyPressed
+
+    private void txtCadBairroKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCadBairroKeyPressed
+        // TODO add your handling code here:
+         enter(evt);
+    }//GEN-LAST:event_txtCadBairroKeyPressed
+
+    private void txtCadEnderecoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCadEnderecoKeyPressed
+        // TODO add your handling code here:
+         enter(evt);
+    }//GEN-LAST:event_txtCadEnderecoKeyPressed
+
+    private void cbUfKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cbUfKeyPressed
+        // TODO add your handling code here:
+         enter(evt);
+    }//GEN-LAST:event_cbUfKeyPressed
 
     public JTextField getTxtCadBairro() {
         return txtCadBairro;
