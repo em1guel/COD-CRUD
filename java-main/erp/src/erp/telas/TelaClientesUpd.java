@@ -24,7 +24,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Renato
+ * @author Miguel
  */
 public class TelaClientesUpd extends javax.swing.JInternalFrame {
 

@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Miguel/Renato
+ * @author Miguel
  */
 public class TelaPrincipalMDI extends javax.swing.JFrame {
 

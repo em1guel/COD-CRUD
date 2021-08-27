@@ -20,7 +20,7 @@ import javax.swing.JOptionPane;
 import erp.telas.TelaClientesCad;
 /**
  *
- * @author Renato
+ * @author Miguel
  */
 public class ClientesDAO {
     

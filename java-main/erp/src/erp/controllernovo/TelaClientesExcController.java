@@ -16,7 +16,7 @@ import erp.telas.TelaClientesExc;
 
 /**
  *
- * @author Renato
+ * @author Miguel
  */
 public class TelaClientesExcController {
     private TelaClientesExc view; 

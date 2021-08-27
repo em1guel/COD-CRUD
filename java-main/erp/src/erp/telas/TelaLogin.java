@@ -19,7 +19,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Renato
+ * @author Miguel
  */
 public class TelaLogin extends javax.swing.JFrame {
 

@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Samuelson
+ * @author Miguel
  */
 public class TelaCadastroCliente extends javax.swing.JFrame {
 

@@ -21,7 +21,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author 
+ * @author Miguel
  */
 public class CadastroLogin extends javax.swing.JFrame {
 

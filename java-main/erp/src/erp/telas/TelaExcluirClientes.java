@@ -11,7 +11,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author eduga
+ * @author Miguel
  */
 public class TelaExcluirClientes extends javax.swing.JFrame {
  private final ExcluirClienteController controller;

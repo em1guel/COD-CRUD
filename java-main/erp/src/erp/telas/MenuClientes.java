@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Renato
+ * @author Miguel
  */
 public class MenuClientes extends javax.swing.JFrame {
 

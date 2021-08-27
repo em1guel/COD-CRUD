@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Renato
+ * @author Miguel
  */
 public class TelaClientesExc extends javax.swing.JInternalFrame {
    private final TelaClientesExcController controller; 

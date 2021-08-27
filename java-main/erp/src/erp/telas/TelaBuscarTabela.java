@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 import net.proteanit.sql.DbUtils;
 /**
  *
- * @author Miguel/Renato
+ * @author Miguel
  */
 public class TelaBuscarTabela extends javax.swing.JInternalFrame {
 Connection con = null;

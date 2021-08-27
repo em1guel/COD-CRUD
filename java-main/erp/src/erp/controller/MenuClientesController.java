@@ -7,7 +7,7 @@ package erp.controller;
 
 /**
  *
- * @author Renato
+ * @author Miguel
  */
 public class MenuClientesController {
     
