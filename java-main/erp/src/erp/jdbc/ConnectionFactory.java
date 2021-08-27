@@ -15,7 +15,7 @@ import java.sql.DriverManager;
 public class ConnectionFactory {
     public static Connection getConnection(){
         try {
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/erp?user=root&password=12345&serverTimezone=UTC & characterEncoding = UTF-8 & useUnicode = yes" );
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/erp?user=root&password=edu85673558&serverTimezone=UTC & characterEncoding = UTF-8 & useUnicode = yes" );
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
